@@ -58,3 +58,18 @@ function media2(n1, n2) {
 }
 
 media2(85, 52);
+
+// concatenar strings no console.
+// 1- ultilizando virgula(texto, seorado de outro texto ou varável por virgula)
+console.log('a média é:', media);
+console.log('a média é:', 'não temos média');
+
+// 2-Ultilizando o sinal de +
+console.log('A média é: ' + média);
+console.log('A média é ' + 'Não temos média');
+
+// 3-Interpolação de string, dentro das chaves é javascript, posso colocar uma variável, uma
+//  condição (algo que retorne true ou flase) função...
+console.log('A média é: ${media}');
+console.log('A média é: ${1>2}');
+console.log('A média é: ${media2(85, 52)}');
